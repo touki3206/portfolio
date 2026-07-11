@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+html{
+  font-size: 100%;
+}
+
+
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+/* 写真 */
+.mytitle{
+  width: 500px;
+  height:  80vh;
+  object-fit: cover;
+  border-radius: 10%/10%;
+}
+
+/* 自己紹介と一言 */
+.text{
+  padding-top: 3rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* 自己紹介 */
+.page-title{
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* ふりがな */
+.page-title2{
+  margin-top: 5px;
+  color: #46c376;
+}
+
+/* 一言内容 */
+.page-desc{
+  background-image: linear-gradient(
+    transparent 70%, #46c376 90%
+  );
+  margin-top: 3rem;
+}
+
+.about{
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ABOUT１ */
+.about1{
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+/* PAGE-MEMO */
+.page-memo{
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #46c376;
+}
+
+/* PAGE-MEMO1 */
+.page-memo1{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.skill-memo{
+  font-size: 15px;
+  margin-top: 7rem;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.skill{
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.skill h2{
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  display: inline-block;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #46c376;
+}
+
+.skill-text{
+  margin-bottom: 60px;
+}
+
+.skill-list{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 300px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgb(0,0,0,.2);
+  transition: .2s;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.card h3{
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.card p{
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.card span{
+  color: #ff9800;
+  font-size: 20px;
+}
+
+.works-title{
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+.works-title h2{
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #46c376;
+}
+
+.works{
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.works-title p{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.works-list{
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 5px;
+  border-bottom: 2px solid #b2b2b2;
+}
+
+.works-list2{
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 5px;
+  border-bottom: 2px solid #b2b2b2;
+}
+
+.works-date{
+  color: #46c376;
+}
+
+.contact{
+  width: 80%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.contact-title{
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.contact-title h2{
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #46c376;
+}
+
+.contact-title p{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
